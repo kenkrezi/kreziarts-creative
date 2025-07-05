@@ -5,60 +5,60 @@ import { projectImages } from "./images";
 export const projects: Project[] = [
   {
     id: 1,
-    title: "Your Poster Title",
-    category: "poster",
-    description: "Add your poster description here - what concept, style, or message does it convey?",
-    image: projectImages.poster1,
-    tags: ["Typography", "Digital Art", "Branding"],
-    year: "2024"
+    title: "Golden Lotus Restaurant",
+    category: "web",
+    description: "An elegant restaurant website design featuring sophisticated navigation and rich food photography. Created a complete dining experience with menu integration, reservation system, and wine pairing suggestions.",
+    image: projectImages.goldenLotus,
+    tags: ["Restaurant Design", "UI/UX", "Web Development", "Food Photography"],
+    year: "2024",
+    link: "#" // Replace with your actual project URL when available
   },
   {
     id: 2,
-    title: "Your Web/App Design Title",
+    title: "Gaming Dashboard App",
     category: "web",
-    description: "Describe your web or app design project - what problem does it solve, what's the user experience like?",
-    image: projectImages.web1,
-    tags: ["React", "UI/UX", "Design System"],
+    description: "Mobile-first gaming companion app with rank tracking, statistics, and social features. Features a modern dark UI with gamification elements and real-time data visualization.",
+    image: projectImages.gamingApp,
+    tags: ["Mobile UI", "Gaming", "Dashboard", "React Native", "Dark Theme"],
     year: "2024",
-    link: "#" // Replace with your actual project URL
+    link: "#" // Replace with your actual project URL when available
   },
   {
     id: 3,
-    title: "Your Short Film Title",
-    category: "film",
-    description: "Describe your short film - what's the story, style, or message? What techniques did you use?",
-    image: projectImages.film1,
-    tags: ["Cinematography", "Editing", "Storytelling"],
-    year: "2023",
-    videoUrl: "#" // Replace with your actual video URL (YouTube, Vimeo, etc.)
+    title: "Cypher Knit Fashion Poster",
+    category: "poster",
+    description: "A bold fashion poster combining gothic aesthetics with futuristic techwear elements. Features striking typography and rebellious underground fashion styling with cyberpunk influences.",
+    image: projectImages.cypherKnit,
+    tags: ["Fashion Design", "Cyberpunk", "Typography", "Digital Art", "Brand Identity"],
+    year: "2024"
   },
   {
     id: 4,
-    title: "Another Poster Design",
+    title: "Your Next Poster Design",
     category: "poster",
-    description: "Description of your second poster project...",
+    description: "Add description of your next poster project here...",
     image: projectImages.poster2,
-    tags: ["Minimalism", "Concept", "Print"],
-    year: "2023"
+    tags: ["Typography", "Branding", "Print Design"],
+    year: "2024"
   },
   {
     id: 5,
-    title: "Another Web/App Project",
+    title: "Your Next Web/App Project",
     category: "web",
-    description: "Description of your second web/app design project...",
+    description: "Add description of your next web or app design project here...",
     image: projectImages.web2,
-    tags: ["Mobile Design", "Responsive", "User Research"],
+    tags: ["React", "UI/UX", "Responsive Design"],
     year: "2024",
     link: "#" // Replace with your actual project URL
   },
   {
     id: 6,
-    title: "Another Short Film",
+    title: "Your Short Film Project",
     category: "film",
-    description: "Description of your second short film project...",
-    image: projectImages.film2,
-    tags: ["Documentary", "Color Grading", "Sound Design"],
-    year: "2023",
-    videoUrl: "#" // Replace with your actual video URL
+    description: "Add description of your short film project - story, style, techniques used...",
+    image: projectImages.film1,
+    tags: ["Cinematography", "Editing", "Storytelling"],
+    year: "2024",
+    videoUrl: "#" // Replace with your actual video URL (YouTube, Vimeo, etc.)
   }
 ];
