@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { ChevronDown, Github, Linkedin, Mail, Play, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -19,59 +18,59 @@ const Index = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: "Neon Dreams Poster Series",
+      title: "Your Poster Title",
       category: "poster",
-      description: "A vibrant poster series exploring cyberpunk aesthetics with bold typography and electric color palettes.",
+      description: "Add your poster description here - what concept, style, or message does it convey?",
       image: "https://images.unsplash.com/photo-1493397212122-2b85dda8106b?w=800&h=1000&fit=crop",
       tags: ["Typography", "Digital Art", "Branding"],
       year: "2024"
     },
     {
       id: 2,
-      title: "EcoTech Platform",
+      title: "Your Web/App Design Title",
       category: "web",
-      description: "A comprehensive web platform for sustainable technology solutions with interactive data visualizations.",
+      description: "Describe your web or app design project - what problem does it solve, what's the user experience like?",
       image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=600&fit=crop",
-      tags: ["React", "UI/UX", "Data Viz"],
+      tags: ["React", "UI/UX", "Design System"],
       year: "2024",
       link: "#"
     },
     {
       id: 3,
-      title: "Urban Pulse",
+      title: "Your Short Film Title",
       category: "film",
-      description: "A short documentary capturing the rhythm of city life through dynamic cinematography and sound design.",
+      description: "Describe your short film - what's the story, style, or message? What techniques did you use?",
       image: "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?w=800&h=600&fit=crop",
-      tags: ["Cinematography", "Editing", "Sound"],
+      tags: ["Cinematography", "Editing", "Storytelling"],
       year: "2023",
       videoUrl: "#"
     },
     {
       id: 4,
-      title: "Abstract Geometry Collection",
+      title: "Another Poster Design",
       category: "poster",
-      description: "Minimalist poster designs exploring geometric forms and negative space with mathematical precision.",
+      description: "Description of your second poster project...",
       image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&h=1000&fit=crop",
-      tags: ["Minimalism", "Geometry", "Print"],
+      tags: ["Minimalism", "Concept", "Print"],
       year: "2023"
     },
     {
       id: 5,
-      title: "Portfolio Dashboard",
+      title: "Another Web/App Project",
       category: "web",
-      description: "A sleek admin dashboard for creative professionals with advanced project management features.",
+      description: "Description of your second web/app design project...",
       image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=600&fit=crop",
-      tags: ["Dashboard", "React", "TypeScript"],
+      tags: ["Mobile Design", "Responsive", "User Research"],
       year: "2024",
       link: "#"
     },
     {
       id: 6,
-      title: "Metamorphosis",
+      title: "Another Short Film",
       category: "film",
-      description: "An experimental short film exploring transformation through abstract visuals and immersive audio.",
+      description: "Description of your second short film project...",
       image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=800&h=600&fit=crop",
-      tags: ["Experimental", "Animation", "Audio"],
+      tags: ["Documentary", "Color Grading", "Sound Design"],
       year: "2023",
       videoUrl: "#"
     }
