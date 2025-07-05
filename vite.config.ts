@@ -11,6 +11,7 @@ export default defineConfig(({ mode }) => ({
   },
   plugins: [
     react(),
+    base: '/kreziarts-creative/',
     mode === 'development' &&
     componentTagger(),
   ].filter(Boolean),
