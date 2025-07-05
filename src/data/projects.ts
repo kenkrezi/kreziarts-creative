@@ -25,6 +25,16 @@ export const projects: Project[] = [
   },
   {
     id: 3,
+    title: "Wags & Whiskers Pet Store",
+    category: "web",
+    description: "Vibrant e-commerce website for pet products featuring playful design with adorable pet imagery. Designed with bright green accents and user-friendly navigation for pet owners.",
+    image: projectImages.wagsWhiskers,
+    tags: ["E-commerce", "Pet Industry", "UI/UX", "Brand Design"],
+    year: "2024",
+    link: "#" // Replace with your actual project URL when available
+  },
+  {
+    id: 4,
     title: "Cypher Knit Fashion Poster",
     category: "poster",
     description: "A bold fashion poster combining gothic aesthetics with futuristic techwear elements. Features striking typography and rebellious underground fashion styling with cyberpunk influences.",
@@ -33,32 +43,22 @@ export const projects: Project[] = [
     year: "2024"
   },
   {
-    id: 4,
-    title: "Your Next Poster Design",
+    id: 5,
+    title: "Falcon of Darkness",
     category: "poster",
-    description: "Add description of your next poster project here...",
-    image: projectImages.poster2,
-    tags: ["Typography", "Branding", "Print Design"],
+    description: "Dark fantasy poster design for 'Femto Feito' featuring gothic typography and mysterious hooded figure. Created with dramatic contrast and symbolic elements representing the duality of light and darkness.",
+    image: projectImages.falconDarkness,
+    tags: ["Dark Fantasy", "Gothic Design", "Typography", "Digital Art", "Poster Design"],
     year: "2024"
   },
   {
-    id: 5,
-    title: "Your Next Web/App Project",
-    category: "web",
-    description: "Add description of your next web or app design project here...",
-    image: projectImages.web2,
-    tags: ["React", "UI/UX", "Responsive Design"],
-    year: "2024",
-    link: "#" // Replace with your actual project URL
-  },
-  {
     id: 6,
-    title: "Your Short Film Project",
+    title: "Creative Showcase Film",
     category: "film",
-    description: "Add description of your short film project - story, style, techniques used...",
+    description: "A dynamic short film showcasing creative process and artistic vision through visual storytelling and contemporary cinematography techniques.",
     image: projectImages.film1,
-    tags: ["Cinematography", "Editing", "Storytelling"],
+    tags: ["Cinematography", "Creative Process", "Visual Storytelling", "Short Film"],
     year: "2024",
-    videoUrl: "#" // Replace with your actual video URL (YouTube, Vimeo, etc.)
+    videoUrl: "https://vm.tiktok.com/ZMSVXqYaD/" // Your TikTok video
   }
 ];
