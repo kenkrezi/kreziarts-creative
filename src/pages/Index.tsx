@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from "react";
 import { ChevronDown, Github, Linkedin, Mail, Play, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -5,6 +6,7 @@ import { Badge } from "@/components/ui/badge";
 import ProjectGrid from "@/components/ProjectGrid";
 import ProjectModal from "@/components/ProjectModal";
 import { Project } from "@/types";
+import { projects } from "@/data/projects";
 
 const Index = () => {
   const [activeFilter, setActiveFilter] = useState("all");
@@ -14,67 +16,6 @@ const Index = () => {
   useEffect(() => {
     setIsVisible(true);
   }, []);
-
-  const projects: Project[] = [
-    {
-      id: 1,
-      title: "Your Poster Title",
-      category: "poster",
-      description: "Add your poster description here - what concept, style, or message does it convey?",
-      image: "https://images.unsplash.com/photo-1493397212122-2b85dda8106b?w=800&h=1000&fit=crop",
-      tags: ["Typography", "Digital Art", "Branding"],
-      year: "2024"
-    },
-    {
-      id: 2,
-      title: "Your Web/App Design Title",
-      category: "web",
-      description: "Describe your web or app design project - what problem does it solve, what's the user experience like?",
-      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=600&fit=crop",
-      tags: ["React", "UI/UX", "Design System"],
-      year: "2024",
-      link: "#"
-    },
-    {
-      id: 3,
-      title: "Your Short Film Title",
-      category: "film",
-      description: "Describe your short film - what's the story, style, or message? What techniques did you use?",
-      image: "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?w=800&h=600&fit=crop",
-      tags: ["Cinematography", "Editing", "Storytelling"],
-      year: "2023",
-      videoUrl: "#"
-    },
-    {
-      id: 4,
-      title: "Another Poster Design",
-      category: "poster",
-      description: "Description of your second poster project...",
-      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&h=1000&fit=crop",
-      tags: ["Minimalism", "Concept", "Print"],
-      year: "2023"
-    },
-    {
-      id: 5,
-      title: "Another Web/App Project",
-      category: "web",
-      description: "Description of your second web/app design project...",
-      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=600&fit=crop",
-      tags: ["Mobile Design", "Responsive", "User Research"],
-      year: "2024",
-      link: "#"
-    },
-    {
-      id: 6,
-      title: "Another Short Film",
-      category: "film",
-      description: "Description of your second short film project...",
-      image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=800&h=600&fit=crop",
-      tags: ["Documentary", "Color Grading", "Sound Design"],
-      year: "2023",
-      videoUrl: "#"
-    }
-  ];
 
   const filteredProjects = activeFilter === "all" 
     ? projects 
