@@ -5,7 +5,7 @@
 export const projectImages = {
   // Web/App design images
   goldenLotus: "/lovable-uploads/8ed51d27-4a42-4adb-bd27-0935b77d731e.png", // Golden Lotus Restaurant website
-  gamingApp: "/lovable-uploads/06108abb-bdcd-4a08-936d-97edfc8c08e1.png", // Gaming/Sports app mobile interface
+  gamingApp: "/lovable-uploads/RankRumble App design", // Gaming/Sports app mobile interface
   wagsWhiskers: "/lovable-uploads/c8e06f05-e5c9-4e87-9ea3-23b322e74c77.png", // Wags & Whiskers pet website
   
   // Poster images
